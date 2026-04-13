@@ -1,0 +1,30 @@
+ .containerMedia {
+      width: 70%;
+      margin: auto; 
+      align-items: center;   
+      text-align: center;
+  }
+  .video-container {
+    display: flex;/*diviser la section */
+    align-items: center;
+}
+.video {
+    flex: 1; /*ajouter une sous-section */
+    margin: 10px;
+}
+#button-média {
+  display: inline-block; /*centrer*/
+  margin: 20px auto;
+  border: black;
+  cursor: pointer;                                                                          
+  background-color: lightblue; 
+  color: black; 
+  border: 5px solid black;
+  border-radius: 6px;
+  padding: 15px 40px; 
+  text-align: center; 
+  font-size: 22px; 
+  font-weight: bold; 
+  font-family: 'Times New Roman'; 
+}
+

@@ -1,0 +1,54 @@
+
+.container_informations{
+    width:80%;
+    margin : 2px auto; /* Centre le contenu*/
+    padding: 30px;
+}
+table,th,td {
+    border:1 px solid black;
+    border-collapse:collapse;/* bordures adjacentes des cellules*/
+}
+th{
+    text-align:left;
+}
+/*Table2*/
+caption{
+    caption-side: top;/*Légende au-dessous du tableau*/
+    font-size : 18px; 
+    margin-bottom:10 px;
+    font-weight:bold;
+    text-align:center;
+    color:green;
+}
+#my footer {
+    background-color: lightblue;
+    color: black;
+    padding:40 px ;
+    text-align: center;
+}
+myfooterJS {
+    font: size 36px;
+    text-align:center;
+    margin: top 50px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+}
+#myfooterJS:hover {/*Styles lorsque "my footer" est survolé*/
+    color:green;
+}
+.button-style {
+    background-color: lightblue;
+    border: 5px solid black;
+    color: black;
+    padding:15px 15px 40px;
+    text-align:center;
+    display:block;
+    font-size: 22px;
+    margin: 20px auto;
+    cursor:pointer;
+    font-weight:bold;
+    font-family: 'Times New Roman';
+}
+#button-myfooter:hover{
+    background-color: green;
+}

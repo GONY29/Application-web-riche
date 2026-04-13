@@ -1,0 +1,50 @@
+        
+body.UBS-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white; 
+  font-family: Arial;
+}
+.top-UBS {
+  display: flex;
+  align-items: center;         
+  padding: 20px ;
+  background-color: white;  
+}
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.photo-container {
+    width: 300px;
+    height: 220px;
+}
+.photo-container img {
+    width: 100%;
+    height: 100%;
+}
+.photo-container .titre {
+    background: black; 
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy; 
+}

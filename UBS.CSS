@@ -1,0 +1,16 @@
+body.UBS-page {
+    background-color: #001f3f;
+    color:white;
+    font-family: Arial;
+}
+.top-UBS {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+}
+.photo-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px ; 
+}
